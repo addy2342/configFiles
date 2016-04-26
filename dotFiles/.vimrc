@@ -14,7 +14,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Load all the plugins
-source ~/Projects/configFiles/dotFiles/vim/loadPlugins.vim
+source ~/dev/configFiles/dotFiles/vim/loadPlugins.vim
 
 " Plugins End
 call vundle#end()
@@ -164,4 +164,4 @@ au BufNewFile,BufRead *.py " Affects py files only
 " ==================================
 " |          Shortcuts             |
 " ==================================
-source ~/Projects/configFiles/dotFiles/vim/shortcuts.vim 
+source ~/dev/configFiles/dotFiles/vim/shortcuts.vim 
